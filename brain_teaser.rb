@@ -58,7 +58,9 @@ def user_selection
         when 5
             exit
     else
+        puts '......................................'
         puts "Invalid Choice, please choose again"
+        puts '......................................'
         user_selection
     end
 end
